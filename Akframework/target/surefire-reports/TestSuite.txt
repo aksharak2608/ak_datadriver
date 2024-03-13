@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.107 s <<< FAILURE! - in TestSuite
+logintoorange(Testcases.orangeHRM_login)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "driver" is null
+	at Testcases.orangeHRM_login.logintoorange(orangeHRM_login.java:38)
+
+logintestdata(Testcases.orangeHRM_login)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String, String)" because "Testcases.orangeHRM_login.Reports" is null
+	at Testcases.orangeHRM_login.logintestdata(orangeHRM_login.java:17)
+
